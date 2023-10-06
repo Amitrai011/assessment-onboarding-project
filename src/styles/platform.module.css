@@ -1,0 +1,17 @@
+.platform {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0.6rem 0.7rem;
+    border: 1px solid #E6E8EC;
+    border-radius: 8px;
+    width: 229px;
+    cursor: pointer;
+    height: 48px;
+}
+
+.platform span {
+    color: #23262F;
+    font-weight: 400;
+    font-size: 14px;
+}

@@ -1,0 +1,70 @@
+.accept {
+    background-color: #FFCD2E;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    min-width: 60%;
+}
+
+.update {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.textBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.link {
+    background-color: #EDBA1A;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    align-self: flex-start;
+    color: #333333;
+    letter-spacing: 1px;
+    padding: 0 5px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 14px;
+    color: #33333380;
+    line-height: 1.2rem;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: none;
+    border: none;
+}
+
+.acceptBtn {
+    background-color: #EDBA1A;
+    color: #00000099;
+    border-radius: 23px;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ignoreBtn {
+    cursor: pointer;
+    color: #33333399;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}

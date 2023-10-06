@@ -1,0 +1,49 @@
+.comment {
+    min-height: 100vh;
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.arrow {
+    z-index: 100;
+    margin-left: 27.5rem;
+    margin-top: -3rem;
+}
+
+.menu {
+    z-index: 100;
+    position: absolute;
+    right: 2rem;
+    bottom: 2rem;
+    background-color: #FFFFFF;
+    padding: 0.7rem 1.2rem 0.8rem;
+    border-radius: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.menu div {
+    height: 25px;
+    margin-left: 0.4rem;
+    width: 1px;
+    background-color: #E6E8EC;
+}
+
+@media (max-width: 1000px) {
+    .arrow {
+        display: none;
+    }
+
+    .comment {
+        justify-content: right;
+    }
+}

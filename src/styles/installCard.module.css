@@ -1,0 +1,37 @@
+.recommendedCard {
+    display: flex;
+    border: 2px solid #625DF5;
+    padding: 1.6rem;
+    margin: 1.5rem 0;
+    border-radius: 1rem;
+    flex-direction: column;
+    width: inherit;
+}
+
+.recommendedCard span {
+    color: #141416;
+    font-weight: bold;
+}
+
+.recommendedCard .installText {
+    color: #4C5366;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 1rem;
+    align-self: flex-start;
+}
+
+.recommendedCard > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.recommendedLabel {
+    background-color: #FF6720;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 4px 8px;
+    border-radius: 21px;
+}

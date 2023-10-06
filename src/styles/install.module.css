@@ -1,0 +1,74 @@
+.install {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.leftPane {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rightPane {
+    width: 50%;
+    background: #625DF5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightPane img {
+    cursor: pointer;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.installManually {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #E6E8EC;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.header {
+    position: absolute;
+    width: 50%;
+}
+
+.installText {
+    color: #777E90;
+    font-weight: 400;
+}
+
+@media (max-width: 900px) {
+    .rightPane {
+        display: none;
+    }
+
+    .leftPane {
+        width: 100%;
+    }
+    
+    .header {
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+    .leftPane {
+        padding: 1rem;
+    }
+
+}
